@@ -55,7 +55,7 @@ export default function App() {
       <h1 style={{"textAlign": "center"}}>Wanna take a look?</h1>
       <p style={{"textAlign": "center", "fontSize": "18px", "marginBottom": "50px"}}>This is the Rise for Roblox trailer.</p>
       <video controls={true}>
-        <source src="/public/showcase.mp4" type="video/mp4"/>
+        <source src="/showcase.mp4" type="video/mp4"/>
         This browser does not support video tags.
       </video>
       <Discord />
