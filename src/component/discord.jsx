@@ -1,0 +1,3 @@
+export default function() {
+	return (<div style={{"margin": "0 auto", "width": 350}}><br/><br/><h1 style={{"textAlign": "center"}}>Join Discord!</h1><br/><iframe src={"https://discord.com/widget?id=1310911436175839292&theme=dark"} width={"350"} height={"500"} allowTransparency={true} frameBorder={0} sandbox={"allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"}></iframe></div>);
+}
