@@ -9,7 +9,7 @@ export default function App() {
       <p className={"WE2d9W3"} style={{"color": "white"}}>Rise For Roblox</p>
       <p className={"X2wD0sk"}>A Roblox utility modification to<br/>dominate your opponents!</p>
       <br/>
-      <a className={"d0A231X"} href="https://raw.githubusercontent.com/SpeedSonic0MC/RiseForRoblox/main/loadstring" target="_blank">Get Rise <span className={"cxlxl"}>➜</span></a>
+      <a className={"d0A231X"} href="https://raw.githubusercontent.com/SpeedSonic0MC/RiseForRoblox/main/loadstring" target="_blank" rel={"noreferrer"}>Get Rise <span className={"cxlxl"}>➜</span></a>
       <h1 style={{"textAlign": "center", "paddingTop": "4rem", "fontSize": "60px"}}>Features</h1>
       <div className={"features"}>
         {/** Interface Themes */}
@@ -23,7 +23,7 @@ export default function App() {
               <li>Click on a theme to use it</li>
             </ul>
           </div>
-          <div className={"featureImage"}><img src={"/Themes.png"} width={"100%"}/></div>
+          <div className={"featureImage"}><img src={"/Themes.png"} width={"100%"} alt={"Themes"} /></div>
         </div>
         {/** Adaptable */}
         <div className={"feature reverse"}>
@@ -36,7 +36,7 @@ export default function App() {
               <li>More Coming Soon...</li>
             </ul>
           </div>
-          <div className={"featureImage"}><img src={"/Adaptable.png"} width={"100%"}/></div>
+          <div className={"featureImage"}><img src={"/Adaptable.png"} width={"100%"} alt={"Adaptable"} /></div>
         </div>
         {/** Languages */}
         <div className={"feature"}>
@@ -49,7 +49,7 @@ export default function App() {
               <li>More Coming Soon...</li>
             </ul>
           </div>
-          <div className={"featureImage"}><img src={"/Languages.png"} width={"100%"}/></div>
+          <div className={"featureImage"}><img src={"/Languages.png"} width={"100%"} alt={"Languages"} /></div>
         </div>
       </div>
       <h1 style={{"textAlign": "center"}}>Wanna take a look?</h1>
