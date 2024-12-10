@@ -5,7 +5,7 @@ import Discord from './component/discord';
 export default function App() {
   return (
     <div className={"__container__"}>
-      <Header/>
+      <Header />
       <p className={"WE2d9W3"} style={{"color": "white"}}>Rise For Roblox</p>
       <p className={"X2wD0sk"}>A Roblox utility modification to<br/>dominate your opponents!</p>
       <br/>

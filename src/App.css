@@ -94,6 +94,12 @@ body {
 	margin: 0 auto;
 }
 
+@media (max-width: 640px) {
+	.features {
+		max-width: 90%;
+	}
+}
+
 .feature {
 	display: flex;
 	margin-bottom: 120px;
