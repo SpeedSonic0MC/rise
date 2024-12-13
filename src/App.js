@@ -53,11 +53,12 @@ export default function App() {
         </div>
       </div>
       <h1 style={{"textAlign": "center"}}>Wanna take a look?</h1>
-      <p style={{"textAlign": "center", "fontSize": "18px", "marginBottom": "50px"}}>This is the Rise for Roblox trailer.</p>
-      <video controls={true}>
+      <p style={{ "textAlign": "center", "fontSize": "18px", "marginBottom": "50px" }}>This is the Rise for Roblox trailer.</p>
+      <h2 style={{ "textAlign": "center" }}>Coming Soon...</h2>
+      {/**<video controls={true}>
         <source src="/showcase.mp4" type="video/mp4"/>
         This browser does not support video tags.
-      </video>
+      </video>*/}
       <Discord />
       <div style={{"paddingBottom": "20px"}} />
     </div>
